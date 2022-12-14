@@ -1,0 +1,24 @@
+.cabecalho {
+    background: #F95E25;
+    display: flex;
+    flex-wrap:  wrap;
+}
+
+.imagemCabecalho{
+    flex: 1 1 auto;
+    align-items: center;
+    margin-left: 10%
+}
+
+.textoCabecalho{
+    flex: 1 1 auto;
+}
+
+.imagemApresentacao{
+    border-radius: 50%;
+    width: 45%;
+    justify-content: center;
+}
+
+.imagemApresentacao{
+}
