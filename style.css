@@ -1,24 +1,42 @@
-.cabecalho {
-    background: #F95E25;
-    display: flex;
-    flex-wrap:  wrap;
-}
-
 .imagemCabecalho{
-    flex: 1 1 auto;
-    align-items: center;
-    margin-left: 10%
+    width: 40%;
 }
 
 .textoCabecalho{
-    flex: 1 1 auto;
+    justify-content: left;
+    width: 60%;
 }
 
 .imagemApresentacao{
     border-radius: 50%;
-    width: 45%;
+    width: 100%;
     justify-content: center;
+    vertical-align: center;
 }
 
-.imagemApresentacao{
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+}
+
+p{
+    text-align: justify;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 22px;
+    color: #1E90FF;
+    vertical-align:middle
+}
+
+.imagem{
+    width: 8%
+}
+
+.subtitulo{
+    font-weight: bold;
+    color: #1E90FF;
+    font-size: 16px;
 }
