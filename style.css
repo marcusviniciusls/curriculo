@@ -33,6 +33,12 @@ p{
     vertical-align:middle
 }
 
+.formatoTable{
+    font-weight: bold;
+    font-size: 22px;
+    vertical-align:middle
+}
+
 .imagem{
     width: 8%
 }
@@ -57,4 +63,41 @@ p{
     font-size: 16px;
     font-weight: bold;
     font-size: 22px;
+}
+
+table{
+    width: 100%;
+    border-style: solid;
+}
+
+thead{
+    font-weight: bold;
+    text-align: center;
+    border-style: solid;
+}
+
+td{
+    text-align: center;
+    border-style: solid;
+}
+
+.tituloTable{
+    font-weight: bold;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited{
+    color: RoyalBlue;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.footer {
+    text-align: right;
+    margin: 2px 5em 0 auto;
 }
